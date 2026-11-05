@@ -16,4 +16,3 @@ Or double-click `start-dev.bat` on Windows. The API URL can be set with `VITE_AP
 The included Actions workflow builds and deploys the site whenever `main` is updated. After the first push, open the repository’s **Settings → Pages** and set the source to **GitHub Actions** if Pages is not already enabled.
 
 The frontend is a demo and uses mock chat/document data; no backend is deployed by this workflow.
-

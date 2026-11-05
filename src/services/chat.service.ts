@@ -1,0 +1,1 @@
+import {api} from './api'; export const chatService={send:(data:unknown)=>api.post('/api/chat',data),history:()=>api.get('/api/chat/history'),get:(id:string)=>api.get(`/api/chat/${id}`),remove:(id:string)=>api.delete(`/api/chat/${id}`),streamUrl:'/api/chat/stream'};
